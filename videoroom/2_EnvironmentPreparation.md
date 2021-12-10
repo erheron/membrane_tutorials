@@ -67,7 +67,7 @@ export PKG_CONFIG_PATH="/usr/local/ssl/lib/pkgconfig"
  ```
  If everything went well the application should be available on [http://localhost:4000](http://localhost:4000/).
 
- Play around...but it is not that much to do! We have better inspect what is the structure of our project.
+ Play around...but it is not that much to do! We better inspect what is the structure of our project.
  Does the project structure reassemble you the structure of a Phoenix project? (in fact, it should!). We will go through the directories in our project.
  + <b> assets/ </b> <br>
  You can find the front end of our application. The most interesting subdirectory here is src/ - we will be putting our typescript files there. For now, the following files should be present there: 
