@@ -78,7 +78,7 @@
     end
  end
  ```
- Just the beginning - note how do we fetch the room's name by using pattern matching in the argument list of `join/3`. ([pattern matching in Elixir](https://elixir-lang.org/getting-started/pattern-matching.html#pattern-matching)). <br>
+ Just the beginning - note how we fetch the room's name by using pattern matching in the argument list of `join/3`. ([pattern matching in Elixir](https://elixir-lang.org/getting-started/pattern-matching.html#pattern-matching)). <br>
 
  What happens here?
  `join/3` is called when the client joins the channel. First, we are looking for a `Videoroom.Room` process saved in the global registry under the `room_id` key. 
