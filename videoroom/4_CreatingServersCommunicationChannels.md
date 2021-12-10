@@ -40,7 +40,7 @@
  ```VideoRoomWeb.UserSocket``` module.
 
  ### Where is VideoRoomWeb.PeerChannel? 
- It is in `lib/videoroom_web/peer_channel.ex` file! However, for now on, this file is only declaring the `VideoRoomWeb.PeerChannel` module, but does not provide any implementation.
+ It is in `lib/videoroom_web/peer_channel.ex` file! However, for now, this file is only declaring the `VideoRoomWeb.PeerChannel` module, but does not provide any implementation.
  ```elixir
  defmodule VideoRoomWeb.PeerChannel do
     use Phoenix.Channel
